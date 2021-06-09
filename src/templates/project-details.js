@@ -7,12 +7,12 @@ import { graphql } from "gatsby"
 export default function ProjectDetails({ data }){
   const featuredImage = getImage(data.markdownRemark.frontmatter.featuredImg.childImageSharp.gatsbyImageData)
   const { html } = data.markdownRemark
-  const { title, stack } = data.markdownRemark.frontmatter
+  const { title } = data.markdownRemark.frontmatter
   return (
     <Layout>
       <div className={styles.details}>
         <h2>{title}</h2>
-        <h3>{stack}</h3>
+       
         <div className={styles.featured}>
           <GatsbyImage image={featuredImage} alt="Banner" />
         </div>

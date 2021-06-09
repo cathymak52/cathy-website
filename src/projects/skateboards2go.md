@@ -1,7 +1,7 @@
 ---
 title: Slider
 stack: React & CSS
-slug: skateboards-to-go
+slug: slider
 date:  03-06-2021 10:13:30
 thumb: ../images/thumbs/skate.png
 featuredImg: ../images/featured/skate-banner.png

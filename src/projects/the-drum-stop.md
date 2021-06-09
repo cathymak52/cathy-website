@@ -1,7 +1,7 @@
 ---
 title: Accordion
 stack: React & CSS
-slug: the-drum-stop
+slug: accordion
 date:   05-06-2021 10:13:30
 thumb: ../images/thumbs/drums.png
 featuredImg: ../images/featured/drums-banner.png

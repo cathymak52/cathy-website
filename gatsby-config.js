@@ -28,7 +28,7 @@ module.exports= {
 
 ],
   siteMetadata: {
-    title: "Cathy's Website",
+    title: "Cathy Makinde",
     description: "web dev portfolio",
     copyright: "This website is copyright 2021 Cathy Makinde",
     contact: 'cathymak52@gmail.com',

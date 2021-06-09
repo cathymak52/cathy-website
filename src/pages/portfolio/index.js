@@ -3,6 +3,9 @@ import { graphql, Link } from "gatsby"
 import Layout from "../../components/Layout"
 import * as styles from "../../styles/portfolio.module.css"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
+import {MdEmail} from 'react-icons/md'
+import Slide from 'react-reveal/Slide';
+
 
 export default function Portfolio({ data }) {
   console.log(
@@ -15,10 +18,11 @@ export default function Portfolio({ data }) {
 
   return (
     <Layout>
+    <Slide right> 
       <div className={styles.portfolio}>
         <h2>Portfolio</h2>
 
-        <h3>Projects created</h3>
+        <h3>Works Completed</h3>
 
         <div className={styles.projects}>
           {projects.map(project => (
@@ -33,7 +37,7 @@ export default function Portfolio({ data }) {
 
                 <h3>{project.frontmatter.title}</h3>
 
-                <p>{project.frontmatter.stack}</p>
+                
                 <p>{project.frontmatter.link}</p>
                 
               </div>
@@ -43,8 +47,9 @@ export default function Portfolio({ data }) {
         
 
 
-        <p>Like what you see? Email me at {contact}</p>
+        <p>Like what you see? <MdEmail size="1em" /> Email me at {contact}</p>
       </div>
+      </Slide>
     </Layout>
   )
 }

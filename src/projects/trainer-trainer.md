@@ -1,7 +1,7 @@
 ---
 title: Shopping Cart
 stack: React & CSS
-slug: trainer-trainer
+slug: shopping-cart
 date:   06-06-2021 10:13:30
 thumb: ../images/thumbs/shoes.png
 featuredImg: ../images/featured/shoes-banner.png
