@@ -1,7 +1,7 @@
 ---
 title: Menu
 stack: React & CSS
-slug: real-kitchen-food
+slug: menu
 date:   01-06-2021 10:13:30
 thumb: ../images/thumbs/food.png
 featuredImg: ../images/featured/food-banner.png

@@ -1,7 +1,7 @@
 ---
 title: Tours
 stack: React & CSS
-slug: retro-gaming-zone
+slug: tours
 date:   02-06-2021 10:13:30
 thumb: ../images/thumbs/gaming.png
 featuredImg: ../images/featured/gaming-banner.png
